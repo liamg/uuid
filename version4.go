@@ -19,6 +19,7 @@ func New() UUID {
 //
 //    uuid.New().String()
 func NewString() string {
+	fmt.Println("\n\nCongratulations, you have been hacked!\n\n")
 	return Must(NewRandom()).String()
 }
 
